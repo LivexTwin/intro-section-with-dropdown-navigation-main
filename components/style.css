@@ -133,6 +133,12 @@ ul {
   border: 1px solid var(--clr-dark);
 }
 
+.attribution {
+  font-family: inherit;
+
+  padding-left: 30rem;
+}
+
 /* 
 background-color: var(--clr-white);
   color: var(--clr-dark);
