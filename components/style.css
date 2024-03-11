@@ -133,10 +133,16 @@ ul {
   border: 1px solid var(--clr-dark);
 }
 
-.attribution {
-  font-family: inherit;
+footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
 
-  padding-left: 30rem;
+.attribution,
+.attribution a {
+  font-size: var(--size-xs);
+  color: inherit;
 }
 
 /* 
