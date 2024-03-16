@@ -47,7 +47,6 @@
   .hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 80dvh;
     margin-top: 2rem;
     gap: 8rem;
   }
@@ -68,7 +67,7 @@
   .hero__desc {
     color: var(--clr-light);
     font-size: var(--size-lg);
-    padding-right: 10rem;
+    padding-right: 2rem;
   }
 
   .btn {
@@ -84,7 +83,11 @@
 
   .hero__right {
     max-width: 500px;
-    margin-top: 3.2rem;
+
+    margin-top: 2rem;
+  }
+  .hero__right img {
+    padding-bottom: 1rem;
   }
 }
 
